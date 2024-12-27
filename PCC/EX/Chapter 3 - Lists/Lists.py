@@ -1,6 +1,5 @@
 """Lists exec from PCC."""
 import random
-from unittest import result
 
 
 def list_of_guest(invites: list) -> None:
