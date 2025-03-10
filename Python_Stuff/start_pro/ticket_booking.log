@@ -1,0 +1,135 @@
+2025-03-10 18:17:19,645 - INFO - Opening URL: https://store.piletilevi.ee/public/et/event/461869/purchase/sector/9013
+2025-03-10 18:17:20,418 - INFO - Waiting for seating map to load...
+2025-03-10 18:17:50,635 - ERROR - An error occurred during booking: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:197:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:527:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-03-10 18:17:50,635 - INFO - Closing the browser
+2025-03-10 18:32:35,400 - INFO - Starting continuous auto-booking process
+2025-03-10 18:32:35,400 - INFO - Press Ctrl+C to stop the process
+2025-03-10 18:32:35,400 - INFO - Booking attempt #1 starting...
+2025-03-10 18:32:37,586 - INFO - Page opened at 2025-03-10 18:32:37
+2025-03-10 18:32:47,601 - INFO - Seat 17 appears to be available
+2025-03-10 18:32:47,606 - INFO - Seat 18 appears to be available
+2025-03-10 18:32:47,606 - INFO - Attempting to book seat 17
+2025-03-10 18:32:52,911 - INFO - Attempting to book seat 18
+2025-03-10 18:32:59,219 - INFO - Found cart button with text: Liitun
+2025-03-10 18:32:59,448 - INFO - Clicked cart button
+2025-03-10 18:33:02,450 - INFO - Tickets may not have been added to cart successfully
+2025-03-10 18:33:02,968 - INFO - Browser closed
+2025-03-10 18:33:02,968 - INFO - Booking attempt #1 failed
+2025-03-10 18:33:02,968 - INFO - Waiting 30 seconds before next attempt...
+2025-03-10 18:33:32,968 - INFO - Booking attempt #2 starting...
+2025-03-10 18:33:37,166 - INFO - Page opened at 2025-03-10 18:33:37
+2025-03-10 18:33:47,190 - INFO - Seat 17 appears to be available
+2025-03-10 18:33:47,197 - INFO - Seat 18 appears to be available
+2025-03-10 18:33:47,197 - INFO - Attempting to book seat 17
+2025-03-10 18:33:52,508 - INFO - Attempting to book seat 18
+2025-03-10 18:33:58,816 - INFO - Found cart button with text: Liitun
+2025-03-10 18:33:59,065 - INFO - Clicked cart button
+2025-03-10 18:34:02,067 - INFO - Tickets may not have been added to cart successfully
+2025-03-10 18:34:02,553 - INFO - Browser closed
+2025-03-10 18:34:02,553 - INFO - Booking attempt #2 failed
+2025-03-10 18:34:02,553 - INFO - Waiting 30 seconds before next attempt...
+2025-03-10 18:34:32,553 - INFO - Booking attempt #3 starting...
+2025-03-10 18:34:34,720 - INFO - Page opened at 2025-03-10 18:34:34
+2025-03-10 18:34:44,743 - INFO - Seat 17 appears to be available
+2025-03-10 18:34:44,751 - INFO - Seat 18 appears to be available
+2025-03-10 18:34:44,751 - INFO - Attempting to book seat 17
+2025-03-10 18:34:50,073 - INFO - Attempting to book seat 18
+2025-03-10 18:34:56,415 - INFO - Found cart button with text: Liitun
+2025-03-10 18:34:56,661 - INFO - Clicked cart button
+2025-03-10 18:34:59,665 - INFO - Tickets may not have been added to cart successfully
+2025-03-10 18:35:00,167 - INFO - Browser closed
+2025-03-10 18:35:00,167 - INFO - Booking attempt #3 failed
+2025-03-10 18:35:00,167 - INFO - Waiting 30 seconds before next attempt...
+2025-03-10 18:35:30,167 - INFO - Booking attempt #4 starting...
+2025-03-10 18:35:34,038 - INFO - Page opened at 2025-03-10 18:35:34
+2025-03-10 18:35:41,105 - INFO - Stopping the auto-booking process...
+2025-03-10 18:35:50,473 - INFO - Starting continuous headless auto-booking process
+2025-03-10 18:35:50,473 - INFO - Press Ctrl+C to stop the process
+2025-03-10 18:35:50,473 - INFO - Booking attempt #1 starting...
+2025-03-10 18:35:54,111 - INFO - Page opened at 2025-03-10 18:35:54
+2025-03-10 18:36:03,766 - INFO - Stopping the auto-booking process...
+2025-03-10 18:36:04,112 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x712841139c10>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/e33f0458-b748-427a-b71e-606532ddb39d/element
+2025-03-10 18:36:04,112 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x712841139d30>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/e33f0458-b748-427a-b71e-606532ddb39d/element
+2025-03-10 18:36:04,113 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x712841139f10>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/e33f0458-b748-427a-b71e-606532ddb39d/element
+2025-03-10 18:36:04,113 - ERROR - Error checking seat 17: HTTPConnectionPool(host='localhost', port=52601): Max retries exceeded with url: /session/e33f0458-b748-427a-b71e-606532ddb39d/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x71284113a0f0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-03-10 18:36:04,113 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x71284113a360>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/e33f0458-b748-427a-b71e-606532ddb39d/element
+2025-03-10 18:36:04,114 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x71284113a570>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/e33f0458-b748-427a-b71e-606532ddb39d/element
+2025-03-10 18:36:04,114 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x71284113a750>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/e33f0458-b748-427a-b71e-606532ddb39d/element
+2025-03-10 18:36:04,114 - ERROR - Error checking seat 18: HTTPConnectionPool(host='localhost', port=52601): Max retries exceeded with url: /session/e33f0458-b748-427a-b71e-606532ddb39d/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x71284113a930>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-03-10 18:36:04,114 - INFO - Not all seats are available, waiting for next check...
+2025-03-10 18:36:04,115 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x71284113ab10>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/e33f0458-b748-427a-b71e-606532ddb39d
+2025-03-10 18:36:04,115 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x71284113acc0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/e33f0458-b748-427a-b71e-606532ddb39d
+2025-03-10 18:36:04,115 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x71284113ae70>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/e33f0458-b748-427a-b71e-606532ddb39d
+2025-03-10 18:36:04,142 - INFO - Browser closed
+2025-03-10 18:36:04,142 - INFO - Booking attempt #1 failed
+2025-03-10 18:36:04,142 - INFO - Waiting 30 seconds before next attempt...
+2025-03-10 18:36:34,142 - INFO - Auto-booking stopped. Made 1 attempts with 0 successful bookings.
+2025-03-10 18:36:34,142 - INFO - Auto-booking script terminated
+2025-03-10 18:37:25,929 - INFO - Starting continuous headless auto-booking process
+2025-03-10 18:37:25,929 - INFO - Press Ctrl+C to stop the process
+2025-03-10 18:37:25,929 - INFO - Booking attempt #1 starting...
+2025-03-10 18:37:27,505 - INFO - Page opened at 2025-03-10 18:37:27
+2025-03-10 18:37:37,523 - INFO - Seat 17 appears to be available
+2025-03-10 18:37:37,530 - INFO - Seat 18 appears to be available
+2025-03-10 18:37:37,530 - INFO - Attempting to book seat 17
+2025-03-10 18:37:41,055 - INFO - Attempting to book seat 18
+2025-03-10 18:37:45,607 - INFO - Found cart button with text: Liitun
+2025-03-10 18:37:45,844 - INFO - Clicked cart button
+2025-03-10 18:37:48,846 - INFO - Tickets may not have been added to cart successfully
+2025-03-10 18:37:49,245 - INFO - Browser closed
+2025-03-10 18:37:49,246 - INFO - Booking attempt #1 failed
+2025-03-10 18:37:49,246 - INFO - Waiting 30 seconds before next attempt...
+2025-03-10 18:38:19,246 - INFO - Booking attempt #2 starting...
+2025-03-10 18:38:21,018 - INFO - Page opened at 2025-03-10 18:38:21
+2025-03-10 18:38:31,033 - INFO - Seat 17 appears to be available
+2025-03-10 18:38:31,038 - INFO - Seat 18 appears to be available
+2025-03-10 18:38:31,038 - INFO - Attempting to book seat 17
+2025-03-10 18:38:34,555 - INFO - Attempting to book seat 18
+2025-03-10 18:38:39,089 - INFO - Found cart button with text: Liitun
+2025-03-10 18:38:39,312 - INFO - Clicked cart button
+2025-03-10 18:38:42,313 - INFO - Tickets may not have been added to cart successfully
+2025-03-10 18:38:42,761 - INFO - Browser closed
+2025-03-10 18:38:42,762 - INFO - Booking attempt #2 failed
+2025-03-10 18:38:42,762 - INFO - Waiting 30 seconds before next attempt...
+2025-03-10 18:39:12,762 - INFO - Booking attempt #3 starting...
+2025-03-10 18:39:14,650 - INFO - Page opened at 2025-03-10 18:39:14
+2025-03-10 18:39:24,668 - INFO - Seat 17 appears to be available
+2025-03-10 18:39:24,674 - INFO - Seat 18 appears to be available
+2025-03-10 18:39:24,674 - INFO - Attempting to book seat 17
+2025-03-10 18:39:28,192 - INFO - Attempting to book seat 18
+2025-03-10 18:39:32,724 - INFO - Found cart button with text: Liitun
+2025-03-10 18:39:32,946 - INFO - Clicked cart button
+2025-03-10 18:39:35,947 - INFO - Tickets may not have been added to cart successfully
+2025-03-10 18:39:36,346 - INFO - Browser closed
+2025-03-10 18:39:36,347 - INFO - Booking attempt #3 failed
+2025-03-10 18:39:36,347 - INFO - Waiting 30 seconds before next attempt...
+2025-03-10 18:40:06,347 - INFO - Booking attempt #4 starting...
+2025-03-10 18:40:08,161 - INFO - Page opened at 2025-03-10 18:40:08
+2025-03-10 18:40:18,176 - INFO - Seat 17 appears to be available
+2025-03-10 18:40:18,181 - INFO - Seat 18 appears to be available
+2025-03-10 18:40:18,181 - INFO - Attempting to book seat 17
+2025-03-10 18:40:21,700 - INFO - Attempting to book seat 18
+2025-03-10 18:40:26,236 - INFO - Found cart button with text: Liitun
+2025-03-10 18:40:26,461 - INFO - Clicked cart button
+2025-03-10 18:40:29,462 - INFO - Tickets may not have been added to cart successfully
+2025-03-10 18:40:29,849 - INFO - Browser closed
+2025-03-10 18:40:29,849 - INFO - Booking attempt #4 failed
+2025-03-10 18:40:29,849 - INFO - Waiting 30 seconds before next attempt...
+2025-03-10 18:40:59,849 - INFO - Booking attempt #5 starting...
+2025-03-10 18:41:01,640 - INFO - Page opened at 2025-03-10 18:41:01
+2025-03-10 18:41:11,657 - INFO - Seat 17 appears to be available
+2025-03-10 18:41:11,662 - INFO - Seat 18 appears to be available
+2025-03-10 18:41:11,662 - INFO - Attempting to book seat 17
+2025-03-10 18:41:15,179 - INFO - Attempting to book seat 18
+2025-03-10 18:41:19,725 - INFO - Found cart button with text: Liitun
+2025-03-10 18:41:19,949 - INFO - Clicked cart button
+2025-03-10 18:41:22,950 - INFO - Tickets may not have been added to cart successfully
+2025-03-10 18:41:23,351 - INFO - Browser closed
+2025-03-10 18:41:23,352 - INFO - Booking attempt #5 failed
+2025-03-10 18:41:23,352 - INFO - Waiting 30 seconds before next attempt...
